@@ -1,0 +1,12 @@
+node_modules
+
+# Secrets
+.env.enc
+*.env
+node_modules
+cache
+dist
+
+yarn.lock 
+.yarn
+data
