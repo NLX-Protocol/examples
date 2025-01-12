@@ -126,7 +126,7 @@ async function querySubgraph(endpoint: string, query: string, variables: any): P
     return await response.json();
 }
 
-async function main() {
+async function getTraderVolume() {
     const startDate = new Date('2024-12-22').getTime() / 1000;
     const endDate = new Date('2025-01-25').getTime() / 1000;
 
@@ -138,7 +138,7 @@ async function main() {
 
 
 }
-main().catch((error) => {
+getTraderVolume().catch((error) => {
     console.error('Error:', error);
     process.exit(1);
 });
