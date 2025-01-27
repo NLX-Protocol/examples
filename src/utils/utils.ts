@@ -96,6 +96,14 @@ export const MARKETS = {
         index: "0x207C362e0A93bA1A77DC8a59b25183b8873aa6B4",
         priceFeedId: "0xb9312a7ee50e189ef045aa3c7842e099b061bd9bdc99ac645956c3b660dc8cce",
     },
+    "Crypto.TRUMP/USD": {
+        index: "0x994f4c83240c8467592611A294e44561582a79e9",
+        priceFeedId: "0x879551021853eec7a7dc827578e8e69da7e4fa8148339aa0d3d5296405be4b1a",
+    },
+    // "Crypto.SOLV/USD": {
+    //     index: "0x7A03D25D30D0CdeFc0DaDAebdE4cdCB9cA802341",
+    //     priceFeedId: "0x03d73649ee5ff534163a584a865128c641ce1effedd330fa6bbe4c9581b0510e",
+    // },
 };
 
 export const POSITION_PROPS_LENGTH = 9
